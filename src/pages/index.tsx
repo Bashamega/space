@@ -15,7 +15,7 @@ export default function Page(): JSX.Element {
         <div className="border h-0 w-[65%] ml-2" />
         <div className="flex space-x-8 backdrop-blur-2xl h-[100px] items-center ml-[-2%] pl-[3%]  w-[calc(60%-52px)]">
           <div className={`cursor-pointer ${page === 'Home' ? 'font-extrabold' : ''}`} onClick={() => setPage('Home')}>
-            <span className="mr-1">01</span>
+            <span className="mr-1">00</span>
             Home
             {page === 'Home' && <div className="h-0 border w-20 absolute bottom-0" />}
           </div>
